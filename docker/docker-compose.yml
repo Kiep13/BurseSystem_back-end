@@ -1,0 +1,12 @@
+version: "3.9"
+name: burse-system-env
+services:
+  db:
+    image: mysql:8.0
+    container_name: mysql_container
+    environment:
+      MYSQL_DATABASE: bursesystem
+      MYSQL_PASSWORD:
+      MYSQL_ALLOW_EMPTY_PASSWORD: true
+    ports:
+      - "3306:3306"

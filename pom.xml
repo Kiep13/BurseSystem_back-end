@@ -59,12 +59,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
-		<!--Библиотека ниже была скачана как попытка скачать что то для загрузки файлов-->
+		<!--The library below was downloaded as an attempt to download something to download files-->
 		<!-- https://mvnrepository.com/artifact/commons-fileupload/commons-fileupload -->
 		<dependency>
 			<groupId>commons-fileupload</groupId>
 			<artifactId>commons-fileupload</artifactId>
-			<version>1.3.1</version>
+			<version>1.5</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->

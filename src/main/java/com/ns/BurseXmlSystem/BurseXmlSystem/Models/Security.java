@@ -1,6 +1,6 @@
 package com.ns.BurseXmlSystem.BurseXmlSystem.Models;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.List;
 
 @Entity

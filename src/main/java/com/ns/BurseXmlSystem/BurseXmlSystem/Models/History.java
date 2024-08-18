@@ -1,6 +1,6 @@
 package com.ns.BurseXmlSystem.BurseXmlSystem.Models;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
@@ -25,7 +25,7 @@ public class History {
     private Double volume;
     private Double marketPrice2;
     private Double marketPrice3;
-    private  Double admittedQuite;
+    private Double admittedQuite;
     private Double mp2ValTrd;
     private Double marketPrice3TradeValue;
     private Double admittedValue;
